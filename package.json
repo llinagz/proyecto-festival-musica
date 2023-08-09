@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-festival-musica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, Sass y JS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp primeraTarea",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "Sass",
+    "Gulp",
+    "JS"
+  ],
+  "author": "llinagz",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.64.2"
+  }
+}
