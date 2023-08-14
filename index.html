@@ -18,9 +18,9 @@
       <div class="contenedor contenido-header">
         <h1>Rock and EDM Festival</h1>
         <nav class="navegacion-principal">
-          <a href="#">Line Up</a>
-          <a href="#">Galería</a>
-          <a href="#">Entradas</a>
+          <a href="#lineup">Line Up</a>
+          <a href="#galeria">Galería</a>
+          <a href="#entradas">Entradas</a>
         </nav>
       </div>
     </header>
@@ -65,7 +65,7 @@
       </div>
     </section>
 
-    <section class="lineup">
+    <section id="lineup" class="lineup">
       <h3>Line Up</h3>
       <p class="dia">Viernes 11</p>
       <div class="escenarios-contenedor contenedor">
@@ -122,16 +122,16 @@
       </div>
     </section>
 
-    <section class="galeria contenedor">
+    <section id="galeria" class="galeria contenedor">
       <h3>Galería</h3>
       <ul class="galeria-imagenes"></ul>
     </section>
 
-    <section class="entradas bg-verde">
+    <section id="entradas" class="entradas bg-verde">
       <h3>Entradas</h3>
       <div class="contenedor contenedor-entradas">
         <div class="basico pase">
-          <p>Pase 1 Día</p>
+          <p class="nombre-pase">Pase 1 Día</p>
           <header class="pase-header">
             <p>Incluye</p>
           </header>
@@ -146,7 +146,7 @@
           </footer>
         </div>
         <div class="premium pase">
-          <p>Pase 2 Días</p>
+          <p class="nombre-pase">Pase 2 Días</p>
           <header class="pase-header">
             <p>Incluye</p>
           </header>
@@ -164,6 +164,10 @@
         </div>
       </div>
     </section>
+
+    <footer class="site-footer">
+      <p>Rock & EDM Festival. Todos los derechos reservados.</p>
+    </footer>
 
     <script src="build/js/app.js"></script>
   </body>
