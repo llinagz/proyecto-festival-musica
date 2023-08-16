@@ -10,7 +10,7 @@ Web para prácticar CSS y JS. También realicé la optimización y automatizaci�
 - ⚙️ Optimización con Gulp, Autofixer, CSS Nano y Terser.
 - 💎 Diseño responsive
 
-Visita la página aquí: [Festival de musica]([https://javierllinares.eu/](https://festival-musica-llinagz.netlify.app/))
+Visita la página aquí: [Festival de musica](https://festival-musica-llinagz.netlify.app)
 
 ### Licencia
 
