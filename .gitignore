@@ -1,6 +1,5 @@
 #Carpetas
 node_modules/
-build/
 
 #Archivos
 package-lock.json
